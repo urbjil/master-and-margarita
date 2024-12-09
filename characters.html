@@ -49,10 +49,6 @@
             width: 100%;
         }
 
-        nav a:visited {
-            color: #007bff;
-        }
-
         nav {
             margin-bottom: 30px;
         }
@@ -60,19 +56,37 @@
         .content {
             max-width: 800px;
             margin: auto;
-            text-align: left;
             line-height: 1.6;
         }
 
         .character {
+            display: flex;
+            align-items: center;
             margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        .character img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .character img:hover {
+            transform: scale(1.1);
         }
 
         .character h2 {
+            margin: 0;
             color: #007bff;
         }
 
         .character p {
+            margin: 5px 0 0;
             color: #333;
         }
     </style>
@@ -89,40 +103,79 @@
 
     <main class="content">
         <section class="character">
-            <h2>Мастер</h2>
-            <p>Мастер – безымянный литератор, автор романа о Понтии Пилате. Не вынеся травли со стороны советской критики, сходит с ума.</p>
+            <img src="images/master.jpg" alt="Мастер">
+            <div>
+                <h2>Мастер</h2>
+                <p>Безымянный литератор, автор романа о Понтии Пилате. Не вынеся травли со стороны советской критики, сходит с ума.</p>
+            </div>
         </section>
 
         <section class="character">
-            <h2>Маргарита</h2>
-            <p>Маргарита - его возлюбленная. Потеряв Мастера, тоскует по нему и в надежде вновь его увидеть соглашается стать королевой на ежегодном балу сатаны.</p>
+            <img src="images/margarita.jpg" alt="Маргарита">
+            <div>
+                <h2>Маргарита</h2>
+                <p>Возлюбленная Мастера. Потеряв Мастера, тоскует по нему и в надежде вновь его увидеть соглашается стать королевой на ежегодном балу сатаны.</p>
+            </div>
         </section>
 
         <section class="character">
-            <h2>Воланд</h2>
-            <p>Воланд - загадочный черный маг, оборачивающийся в конце концов самим сатаной.</p>
+            <img src="images/voland.jpg" alt="Воланд">
+            <div>
+                <h2>Воланд</h2>
+                <p>Загадочный черный маг, оборачивающийся в конце концов самим сатаной.</p>
+            </div>
         </section>
 
-            <section class="character">
+
+        <section class="character">
+            <img src="images/voland.jpg" alt="Азазелло">
+            <div>
                 <h2>Азазелло</h2>
-                <p>Азазелло - член свиты Воланда, низенький, рыжеволосый, клыкастый субъект.</p>
+                <p>Член свиты Воланда, низенький, рыжеволосый, клыкастый субъект.</p>
+                
+                </div>
+        </section>
 
-                <section class="character">
-                    <h2>Бегемот</h2>
-                   
-                <p>Бегемот - шут Воланда, из огромного говорящего черного кота превращающийся в низенького толстяка «с кошачьей рожей» и обратно.</p>
+         <section class="character">
+            <img src="images/voland.jpg" alt="Бегемот">
+            <div>
+                <h2>Бегемот</h2>
+		
+		<p>Шут Воланда, из огромного говорящего черного кота превращающийся в низенького толстяка «с кошачьей рожей» и обратно.</p>
 
-                     <section class="character">
-                        <h2>Коровьев</h2>
-                         <p>Коровьев – спутник Воланда, высокий худой тип в клетчатом пиджаке и пенсне с одним выбитым стеклом.</p>
+                </div>
+        </section>
 
-                          <section class="character">
-                        <h2>Понтий Пилат</h2>
-                              <p>Понтий Пилат – пятый прокуратор Иудеи, в котором человеческие чувства борются со служебным долгом.</p>
+         <section class="character">
+            <img src="images/voland.jpg" alt="Коровьев">
+            <div>
+                <h2>Коровьев</h2>
+		
+		<p>Спутник Воланда, высокий худой тип в клетчатом пиджаке и пенсне с одним выбитым стеклом.</p>
 
-                        <section class="character">
-                    <h2>Иешуа Га-Ноцри</h2>
-                        <p>Иешуа Га-Ноцри – бродячий философ, за свои идеи осужденный на распятие.</p>
+                </div>
+        </section>
+
+         <section class="character">
+            <img src="images/voland.jpg" alt="Понтий Пилат">
+            <div>
+                <h2>Понтий Пилат</h2>
+		
+		<p>Пятый прокуратор Иудеи, в котором человеческие чувства борются со служебным долгом.</p>
+
+                </div>
+        </section>
+
+         <section class="character">
+            <img src="images/voland.jpg" alt="Гелла">
+            <div>
+                <h2>Гелла</h2>
+		
+		<p>Служанка Воланда, привлекательная рыжеволосая вампирша.</p>
+
+                </div>
+        </section>
+        
     </main>
 </body>
 </html>
