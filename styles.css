@@ -58,3 +58,12 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.6); /* Чёрный фон с прозрачностью */
+    color: white; /* Белый цвет текста */
+    padding: 10px; /* Отступы вокруг текста */
+    border-radius: 5px; /* Закругленные края (по желанию) */
+    display: inline-block; /* Фон занимает только область текста */
+}
+
