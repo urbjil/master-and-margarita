@@ -84,6 +84,8 @@ header {
 
     margin-top: 20px; /* Это поднимет весь блок с текстом немного вверх */
 
+    background-color: transparent; /* Убирает фон */
+
 }
 
 nav ul {
