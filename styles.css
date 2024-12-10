@@ -1,51 +1,53 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background-color: transparent;
-    color: white;
-    font-family: Arial, sans-serif;
+    padding: 0;
     background-image: url('images/moscow1930.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    text-shadow: 1px 1px 3px black;
-
     color: #fff;
-    margin: 0;
-    padding: 0;
-
+    text-shadow: 1px 1px 3px black;
 }
 
 header {
-    /*background-color: #2c2c2c;
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный чёрный фон */
     color: white;
     padding: 20px;
-    text-align: center;*/
-    
-    background-color: transparent;
-    color: white;
-    text-shadow: 1px 1px 3px black
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный белый фон при наведении */
+    color: #ddd;
 }
 
 main {
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный фон для основного контента */
+    border-radius: 10px;
 }
 
 section {
@@ -53,8 +55,11 @@ section {
 }
 
 footer {
-    background-color: #2c2c2c;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
 }
+
