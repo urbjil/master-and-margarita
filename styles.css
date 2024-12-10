@@ -5,6 +5,18 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/moscow1930.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
 }
 
 header {
