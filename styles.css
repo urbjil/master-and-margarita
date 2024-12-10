@@ -82,7 +82,7 @@ body {
 
 header {
 
-    margin-top: -50px; /* Это поднимет весь блок с текстом немного вверх */
+    margin-top: -200px; /* Это поднимет весь блок с текстом немного вверх */
 
     background-color: transparent; /* Убирает фон */
 
