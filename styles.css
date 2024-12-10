@@ -134,20 +134,26 @@ footer {
     border-radius: 5px;
 }
 
-/*h1, h2, h3, h4, h5, h6 {
-    color: #fff;
-    text-shadow: 2px 2px 5px black;*/ 
 
 h1 {
+    /*font-size: 48px;
+    color: #D3D3D3; /* Светлый серый цвет 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); */
+    
     font-size: 48px;
     color: #D3D3D3; /* Светлый серый цвет */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Легкая тень для лучшей читаемости */
+    background-color: transparent; /* Убираем фон */
+    border: none; /* Убираем обводку */
+    padding: 0; /* Убираем отступы */
+
+
 }
 
 }
 
 p {
-    line-height: 1.6; /* Межстрочный интервал для удобства чтения */
+    line-height: 1.6; 
 }
 
 
