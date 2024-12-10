@@ -81,12 +81,9 @@ body {
 }
 
 header {
-    background-color: transparent; /* Полупрозрачный чёрный фон */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: none;
-    margin-bottom: 20px;
+
+    margin-top: 20px; /* Это поднимет весь блок с текстом немного вверх */
+
 }
 
 nav ul {
