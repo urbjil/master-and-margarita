@@ -117,7 +117,7 @@ main {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный чёрный фон для основного контента */
     border-radius: 10px;
-    color: #f0f0f0; /* Светло-серый цвет текста */
+    color: #961f1f /* Светло-серый цвет текста */
 }
 
 section {
