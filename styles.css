@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,77 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный чёрный фон */
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #ddd;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}*/
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/moscow1930.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* Белый цвет текста */
+    text-shadow: 2px 2px 5px black; /* Чёрная тень для текста */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный чёрный фон */
     color: white;
     padding: 20px;
     text-align: center;
@@ -46,8 +116,9 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный фон для основного контента */
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный чёрный фон для основного контента */
     border-radius: 10px;
+    color: #f0f0f0; /* Светло-серый цвет текста */
 }
 
 section {
@@ -62,4 +133,14 @@ footer {
     margin-top: 20px;
     border-radius: 5px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* Белый цвет заголовков */
+    text-shadow: 2px 2px 5px black; /* Тень для заголовков */
+}
+
+p {
+    line-height: 1.6; /* Межстрочный интервал для удобства чтения */
+}
+
 
